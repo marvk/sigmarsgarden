@@ -1,6 +1,6 @@
-# SIGMAR'S GARDEN 
+# Sigmar's Garden Autosolver 
 
-### DEMO
+### Demo
 
 https://user-images.githubusercontent.com/6569856/124358296-f5bf8b80-dc1f-11eb-9907-ba2046189858.mp4
 
