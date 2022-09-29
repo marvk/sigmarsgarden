@@ -53,8 +53,21 @@ Solving the game is probably the easiest part of the project. I'm using a simple
 
 The game is played by a [java.awt.Robot](https://docs.oracle.com/en/java/javase/16/docs/api/java.desktop/java/awt/Robot.html) that is able to start a new game, captures board and click tiles to play moves.
 
+## Running the project
+
+### Prerequisites: 
+
+* JDK 15 or newer
+* Maven
+
+### Instructions
+
+* Clone this project and navigate into it's root directory
+* Run `mvn clean compile` to compile the project
+* Run `mvn exec:java` to run the project. It will start solving automatically. Please note the limitations in the Acknowledgements & Limitations section of this readme.
+
 ## Acknowledgements & Limitations
 
-If you want to run this yourself, be warned that the code as it stands now is optimized for 1080p resolution and will probably break on anything but 1080p.
+If you want to run this yourself, be warned that the code as it stands now is optimized for 1080p resolution and 100% scaling and will probably break on anything but 1080p 100%.
 
 This project uses OpenCV.
